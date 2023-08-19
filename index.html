@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sitil.css" />
+    <title>E-Ticaret</title>
+  </head>
+  <body>
+    <!-- Üsst kısım -->
+    <header>
+      <h1>E-Ticaret</h1>
+      <input type="text" placeholder="Ürün ismini giriniz..." />
+      <div>
+        <button id="basket">Sepet</button>
+        <button>Kaydol</button>
+        <button>Giriş yap</button>
+      </div>
+    </header>
+    <!-- Ana içerik -->
+    <main>
+      <!-- Katogoriler -->
+      <section id="catogor-sec">
+        <h1>Katogoriler</h1>
+        <div class="catogories"></div>
+      </section>
+      <!-- Ürünler -->
+      <section>
+        <h1>Ürünler</h1>
+        <div class="products"></div>
+      </section>
+    </main>
+    <!-- Modal için sepet oluşturma -->
+
+    <div class="modal-wrapper">
+      <div class="modal">
+        <div id="icon">
+          <img id="close" src="/img/icons.png" alt="" />
+        </div>
+        <div id="list">
+          <div class="item">
+            <img  src="https://picsum.photos/640/640?r=4892"/>
+            <h3 class="title">Marcos</h3>
+            <h4 class="price">315 &#8378</h4>
+            <p>Miktar: 3</p>
+            <img id="delete" src="/img/trash.png"/>
+
+          </div>
+        </div>
+        <p id="total"> <span id="count">0 Ürün</span> Toplam: <span id="total-price">0</span> &#8378</p>
+      </div>
+     
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
