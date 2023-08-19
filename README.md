@@ -36,3 +36,5 @@
 - - `basket dizisinden ` tan çıkar
 - - Ekrandaki ürün listesini güncelle
 - - Toplam bilgisini güncelle# e-ticaret
+ * - Gif eklendi
+ ![](/img/e-ticaret.gif)
